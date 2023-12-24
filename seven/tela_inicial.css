@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+}
+a {
+  color: #e8fff9;
+  text-decoration: 0;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 8vh;
+  background: #0e0b16;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.list {
+  list-style: none;
+  display: flex;
+}
+.list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    overflow: hidden;
+  }
+  .list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #0e0b16;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+  }
+  .list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .list.active {
+    transform: translateX(0);
+  }
+}
+.card {
+  margin-left: 40px;
+  background-color: white;
+  height: 250px;
+  width: 900px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 0 0 25px;
+}
+.container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 60px;
+}
+p:hover {
+  opacity: 0.7;
+}
+p {
+  transition: 0.5s;
+}
+.cse {
+  background-color: #251f38;
+  height: 1370px;
+  border: #0e0b16 solid 8px;
+}
+.cse .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cse .vs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: #0e0b16;
+  text-align: center;
+  margin-left: 480px;
+  margin-right: 480px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .vs p{
+    color: #e8fff9;
+    font-size: 30px;
+  }  
