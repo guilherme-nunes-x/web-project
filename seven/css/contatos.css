@@ -92,7 +92,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  gap: 35px;
+  gap: 55px;
   text-align: center;
   animation: slideIn 1s ease-in-out forwards;
   transition: all 0.8s ease;
@@ -101,7 +101,7 @@ nav {
 }
 .cse {
   background-color: #251f38;
-  height: 1100px;
+  height: auto;
 }
 .cse .card {
   display: flex;
@@ -171,7 +171,7 @@ nav {
     transform: translateX(0px);
   }
 }
-footer{
+footer {
   background-color: #0e0b16;
   height: 10vh;
   display: flex;
@@ -180,7 +180,6 @@ footer{
   font-size: 20px;
 }
 .container #aviso {
-  margin-top: 20px;
   background-color: #0e0b16;
   height: auto;
   width: auto;
@@ -192,10 +191,47 @@ footer{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px;
   transition: all 0.6s;
+  margin-bottom: 40px;
 }
 #aviso:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   background: rgb(255, 24, 24);
   color: white;
+}
+img {
+  transition: all 0.6s;
+  height: 250px;
+  width: 250px;
+}
+img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.sub {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  gap: 40px;
+}
+.sub a {
+  color: #0e0b16;
+  transition: all 0.6s;
+}
+.sub a:hover {
+  color: aqua;
+}
+#mail:hover {
+  color: aqua;
+}
+#mail {
+  color: #0e0b16;
+  transition: all 0.6s;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+#v1 {
+  color: rgb(0, 132, 255);
 }

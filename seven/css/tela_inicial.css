@@ -24,6 +24,7 @@ a:hover {
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  color: rgb(0, 132, 255);
 }
 nav {
   display: flex;
@@ -101,7 +102,7 @@ nav {
 }
 .cse {
   background-color: #251f38;
-  height: 1200px;
+  height: auto;
 }
 .cse .card {
   display: flex;
@@ -180,7 +181,7 @@ footer {
   font-size: 20px;
 }
 .container #aviso {
-  margin-top: 20px;
+  margin-top: 0px;
   background-color: #0e0b16;
   height: auto;
   width: auto;
@@ -192,6 +193,7 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px;
   transition: all 0.6s;
+  margin-bottom: 40px;
 }
 #aviso:hover {
   -webkit-transform: scale(1.2);
