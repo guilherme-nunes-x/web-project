@@ -194,6 +194,7 @@ img:hover {
   overflow: hidden;
 }
 .container #aviso {
+  margin-top: 20px;
   background-color: #0e0b16;
   height: auto;
   width: auto;
