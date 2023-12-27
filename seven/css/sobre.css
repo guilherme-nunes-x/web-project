@@ -171,3 +171,30 @@ nav {
     transform: translateX(0px);
   }
 }
+footer{
+  background-color: #0e0b16;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+.container #aviso {
+  background-color: #0e0b16;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: "squard one", sans-serif;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  transition: all 0.6s;
+}
+#aviso:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  background: rgb(255, 24, 24);
+  color: white;
+}
