@@ -265,3 +265,11 @@ p{
   height: 225px;
   width: 225px;
 }
+.inex a{
+  color: #0e0b16;
+  transition: all 0.6s; 
+  padding-top: 10px;
+}
+.inex a:hover{
+  color: aqua; 
+}
