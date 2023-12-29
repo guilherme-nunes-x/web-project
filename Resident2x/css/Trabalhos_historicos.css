@@ -24,6 +24,11 @@ a:hover {
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  transition: all 0.3s;
+}
+.logo:active{
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 nav {
   display: flex;
@@ -44,8 +49,17 @@ nav {
 .list li {
   letter-spacing: 3px;
   margin-left: 32px;
+  transition: all 0.3s;
 }
 
+.list li:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+a:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
 @media (max-width: 1000px) {
   body {
     overflow: hidden;
