@@ -16,7 +16,6 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  opacity: 0.7;
   color: rgb(0, 132, 255);
 }
 
@@ -29,6 +28,9 @@ a:hover {
 .logo:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
+}
+nav a:hover{
+  opacity: 0.7;
 }
 nav {
   display: flex;
@@ -50,6 +52,9 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px;
   transition: all 0.3s;
+}
+.list li:hover {
+  opacity: 0.7;
 }
 .list li:active {
   -webkit-transform: scale(0.9);
@@ -99,8 +104,8 @@ a:active {
   transition: all 0.6s;
 }
 .card:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .container {
   padding-top: 20px;
@@ -108,7 +113,7 @@ a:active {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  gap: 50px;
+  gap: 45px;
   text-align: center;
   animation: slideIn 1s ease-in-out forwards;
   transition: all 0.8s ease;
@@ -136,8 +141,8 @@ a:active {
   transition: all 0.6s;
 }
 .vs:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   color: rgb(0, 132, 255);
 }
 .cse .vs a {
@@ -158,8 +163,8 @@ a:active {
   transition: all 0.6s;
 }
 .title:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 @keyframes slideIn {
   0% {
@@ -211,8 +216,8 @@ footer {
   margin-bottom: 35px;
 }
 #aviso:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   background: rgb(255, 24, 24);
   color: white;
 }
@@ -220,8 +225,8 @@ footer {
   color: rgb(0, 132, 255);
 }
 img:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .sub {
@@ -235,7 +240,7 @@ img:hover {
   transition: all 0.6s;
 }
 .sub a:hover {
-  color: aqua;
+  text-decoration:underline;
 }
 .sub2 {
   display: grid;
@@ -248,7 +253,7 @@ img:hover {
   transition: all 0.6s;
 }
 .sub2 a:hover {
-  color: aqua;
+  text-decoration:underline;
 }
 .container p {
   font-size: 22px;
@@ -264,7 +269,7 @@ img:hover {
   transition: all 0.6s;
 }
 .sub3 a:hover {
-  color: aqua;
+  text-decoration:underline;
 }
 .sub img {
   transition: all 0.6s;
@@ -273,8 +278,8 @@ img:hover {
 }
 .sub2 img {
   transition: all 0.6s;
-  height: 175px;
-  width: 175px;
+  height: 178px;
+  width: 178px;
 }
 .sub3 img {
   transition: all 0.6s;

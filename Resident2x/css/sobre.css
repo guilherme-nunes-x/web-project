@@ -16,7 +16,6 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  opacity: 0.7;
   color: rgb(0, 132, 255);
 }
 
@@ -29,6 +28,9 @@ a:hover {
 .logo:active{
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
+}
+nav a:hover{
+  opacity: 0.7;
 }
 nav {
   display: flex;
@@ -55,6 +57,9 @@ nav {
 .list li:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
+}
+.list li:hover {
+  opacity: 0.7;
 }
 a:active {
   -webkit-transform: scale(0.9);
@@ -98,8 +103,8 @@ a:active {
   transition: all 0.6s;
 }
 .card:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .container {
   padding-top: 20px;
@@ -107,7 +112,7 @@ a:active {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  gap: 42px;
+  gap: 45px;
   text-align: center;
   animation: slideIn 1s ease-in-out forwards;
   transition: all 0.8s ease;
@@ -135,8 +140,8 @@ a:active {
   transition: all 0.6s;
 }
 .vs:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   color: rgb(0, 132, 255);
 }
 .cse .vs a {
@@ -157,8 +162,8 @@ a:active {
   transition: all 0.6s;
 }
 .title:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 @keyframes slideIn {
   0% {
@@ -209,8 +214,8 @@ footer{
   margin-bottom: 40px;
 }
 #aviso:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   background: rgb(255, 24, 24);
   color: white;
 }
@@ -221,16 +226,15 @@ p{
   font-size: 22px;
 }
 img {
-  width: auto;
   aspect-ratio: 1/1;
   object-fit: cover;
-  width: auto;
-  height: auto;
+  width: 350px;
+  height: 350px;
   transition: scale 350ms ease, -webkit-transform 350ms linear;
 }
 img:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .image {
   animation: slideIn 1.5s ease-in-out forwards;
@@ -243,5 +247,11 @@ img:hover {
   transition: all 0.6s;
 }
 .sub a:hover {
-  color: aqua;
+  text-decoration:underline;
+}
+.divisao{
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto;
+  gap: 40px;
 }
