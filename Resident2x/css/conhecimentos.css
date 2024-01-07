@@ -231,8 +231,7 @@ img:hover {
 
 .sub {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(3, auto);
   gap: 40px;
 }
 .sub a,.sub2 a,.sub3 a, .sfs a{
@@ -244,8 +243,7 @@ img:hover {
 }
 .sub2 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(4, auto);
   gap: 40px;
 }
 .container p {
@@ -253,8 +251,7 @@ img:hover {
 }
 .sub3 {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto ;
+  grid-template-columns: repeat(4, auto);
   gap: 40px;
 }
 .sub img,.sub2 img, .sub3 img, .sfs img  {
@@ -264,7 +261,6 @@ img:hover {
 }
 .sfs{
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto ;
+  grid-template-columns: repeat(2, auto);
   gap: 40px;
 }
